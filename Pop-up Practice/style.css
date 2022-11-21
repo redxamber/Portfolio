@@ -45,6 +45,14 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+#continue {
+background-color :dodgerblue;
+color: white;
+font-size: 15px;
+border: solid 1px dodgerblue;
+padding: 5px;
+border-radius: 5px;
+}
 #cancel {
     background-color: white;
     font-size: 15px;
