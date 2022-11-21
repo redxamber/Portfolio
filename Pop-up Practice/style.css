@@ -1,0 +1,69 @@
+body {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+.whole-container {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+    border: solid white 1px;
+    border-radius: 20px;
+}
+.container-1 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.container-2 {
+    margin: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container-3 {
+    margin-top:50px;
+    margin-right: 50px;
+}
+#exclamation {
+    color: dodgerblue;
+    background-color: gainsboro;
+    font-size: 40px;
+    border-radius: 30px;
+    border: solid 1px gainsboro;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+#continue {
+    background-color :dodgerblue;
+    color: white;
+    font-size: 15px;
+    border: solid 1px dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+#cancel {
+    background-color: white;
+    font-size: 15px;
+    border: solid 1px grey;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 74px;
+    }
+#x {
+    background: #eee;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #eee 1px solid;
+}
