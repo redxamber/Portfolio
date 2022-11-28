@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(250, 245, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+#leaves {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+}
+
+.rectangle {
+    background-color: black;
+    height: 9em;
+    width: 25.7em;
+    position: fixed;
+    top: 130px;
+    opacity: 0.5;
+    margin: -0.5em;
+}
+
+#odin {
+    color: white;
+    font-size: 3em;
+    position: fixed;
+    top: 140px;
+    left: 190px;
+    font-family: fantasy, tahoma, sans-serif;
+}
+
+.form-stuff {
+    display: flex;
+    align-items: center;
+    display: inline;
+    margin-left: 400px;
+}
+
+.words {
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+    position: fixed;
+    top: 150px;
+    left: 110px;
+}
+
+#credit {
+    font-size: 0.5em;
+    color: white;
+    position: fixed;
+    top: 550px;
+    left: 150px;
+}
+
+.white-box {
+    background-color: white;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 4px 9px -2px grey;
+    margin-top: 3em;
+    margin-left: 0em;
+    margin-right: -0.5em;
+}
+
+fieldset {
+    border: none;
+}
+
+.boxes {
+    display: flex;
+    justify-content: left;
+    margin-left: 7em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+    gap: 4em;
+}
+
+.box-1 {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-2 {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    margin-top: 2em;
+    margin-left: 2em;
+    border: rgb(70, 82, 66) solid 1px;
+    border-radius: 5px;
+    background-color: rgb(70, 82, 66);
+    color: white;
+    height: 25px;
+    width: 174px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 748px;
+    top: 420px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(70, 82, 66);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#login {
+    margin: 2em;
+}
+
+input {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 3px;
+}
