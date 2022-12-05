@@ -1,0 +1,58 @@
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    min-height: 35em;
+}
+
+.announcements {
+    background-color: rgb(252, 149, 206);
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end:4;
+}
+
+.links {
+    background-color: rgb(252, 164, 149);
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.header {
+    background-color: rgb(250, 91, 91);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-column: span 2;
+}
+
+#project-1 {
+    background-color: rgb(247, 181, 81)
+}
+
+#project-2 {
+    background-color: rgb(247, 236, 81)
+}
+
+#project-3 {
+    background-color: rgb(169, 247, 81);
+}
+
+#project-4 {
+    background-color: rgb(81, 247, 123);
+}
+
+#project-5 {
+    background-color: rgb(81, 247, 233);
+}
+
+#project-6 {
+    background-color: rgb(197, 149, 252);
+}
