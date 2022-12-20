@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amber Parker Front-end Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="title">
+        <h2>Amber Parker</h2>
+        <h5>Front-end Developer</h5>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li> 
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+        <video id="video1" src="paint.mp4" muted loop autoplay></video>
+    </div>
+    <div class="bio-info">
+     <div class="section-1">
+      <div class="sub-section-1">
+        <img id="me" src="me.png" alt="me">
+      </div>
+      <div class="sub-section-2">
+        <h1 class="text">Hello,</h1>
+        <h3 class="text">a bit about me:</h3>
+      </div>
+     </div>
+      <div class="buttons text">
+        <button type="button" id="about" onclick="toggleText1()"><span class="one">About</span></button>
+        <button type="button" id="skills" onclick="toggleText2()"><span class="two">Skills</span></button>
+        <button type="button" id="work" onclick="toggleText3()"><span class="three">Work</span></button>
+      </div>
+      <div class="paragraphs text">
+        <div id="paragraph1" style="display: none">Hello there! My name is Amber and I am a registered nurse 
+        turned front-end web developer. I've found that my passion lies closer to software development, but 
+        luckily working in nursing has actually given me many skills that have helped in my journey to 
+        transitioning into this profession. I find coding to be just as mentally stimulating as nursing in 
+        terms of problem solving and paying attention to details, but I much prefer the creative aspect of 
+        software development!</div>
+        <div id="paragraph2" style="display: none">I have experience with JavaScript, HTML, CSS, and I am 
+        familiar with React.js. I have been building projects with them for about 6 months so far. I intend on 
+        learning more programming languages and frameworks, and I want to also become even more proficient in 
+        the languages I already know. As for soft skills, I am a detail-oriented person, well-organized, good 
+        at problem-solving, professional, friendly to work with, patient, and reliable – all skills I have 
+        expanded upon while working as a registered nurse previously.</div>
+        <div id="paragraph3" style="display: none">I have yet to acquire my first coding job, but I am looking 
+        forward to my eventual start! As far as previous work experience, I have worked in a variety of 
+        environments which have been a big help in this dive into the world of coding. Besides the soft skills 
+        that I mentioned in the “skills” section, I’ve also been able to pinpoint exactly how I learn things 
+        quickly and efficiently - which made my experience with learning to code much easier. I know that it 
+        will also help me greatly in this career when it comes to learning other programming languages down 
+        the road.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="social">
+        <h5>Connect with me:</h5>
+        <div class="icons">
+          <i class="fa fa-github"></i>
+          <i class="fa fa-envelope"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
