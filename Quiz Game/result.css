@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    background-color: rgb(30, 179, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    font-family:'PT Serif', 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#scoreDisplay {
+    font-size: 3rem;
+    font-family:'PT Serif', 'Times New Roman', Times, serif;
+    color:white;
+}
+
+#main {
+    border-radius: 10px;
+    margin-top: 3em;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1rem;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(30, 179, 62);
+    border: white solid 2px;
+    font-weight: 900;
+}

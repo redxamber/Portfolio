@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Yeon+Sung&display=swap');
+
+body {
+    background-image: linear-gradient(left, rgb(231, 4, 252), darkviolet, rgb(63, 167, 252));
+    background-image: -moz-linear-gradient(left, rgb(231, 4, 252), darkviolet, rgb(63, 167, 252));
+    background-image: -webkit-linear-gradient(left, rgb(231, 4, 252), darkviolet, rgb(63, 167, 252));
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-family:'Yeon Sung', 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#instructions {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Andika', 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#result {
+    color: white;
+    margin-top: 1em;
+    font-size: 2rem;
+    font-family: 'Yeon Sung', 'Courier New', Courier, monospace;
+}
+
+#ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 10em;
+    width: 10em;
+    font-size: x-large;
+    border-radius: 120px;
+    margin-top: 2em;
+}
+
+#eight {
+    color: black;
+    background-color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#ball:active {
+    animation: shake 0.2s ease-out;
+}
+
+@keyframes shake {
+
+0% {
+    transform: skewX(-10deg);
+}
+
+25% {
+    transform: skewX(10deg);
+}
+
+50% {
+    transform: skewX(-10deg);
+}
+
+75% {
+    transform: skewX(10deg);
+}
+
+100% {
+    transform: skewX(-10deg);
+}
+}
