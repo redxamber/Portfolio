@@ -89,6 +89,9 @@ ul li a{
     border-top: white solid 5px;
     border-left: white solid 5px;
 }
+#tic-tac-toe:hover {
+    background-color: #772106;
+}
 
 #quiz-game {
     text-decoration: none;
@@ -101,6 +104,10 @@ ul li a{
     border-left: white solid 5px;
 }
 
+#quiz-game:hover {
+    background-color: #772106;
+}
+
 #to-do-list {
     text-decoration: none;
     color: #fff;
@@ -110,6 +117,9 @@ ul li a{
     border-radius: 40px;
     border-top: white solid 5px;
     border-left: white solid 5px;
+}
+#to-do-list:hover {
+    background-color: #772106;
 }
 
 #magic-8-ball {
@@ -121,6 +131,9 @@ ul li a{
     border-radius: 40px;
     border-top: white solid 5px;
     border-left: white solid 5px;
+}
+#magic-8-ball:hover {
+    background-color: #772106;
 }
 
 #video1 {
@@ -140,6 +153,7 @@ ul li a{
         font-size: 0.9rem;
     }
 }
+
 @media (max-width:936px) {
     .projects {
         display: flex;
@@ -154,6 +168,5 @@ ul li a{
     .social {
        position: relative;
        top: 70px;
-    }
-
+    } 
 }
