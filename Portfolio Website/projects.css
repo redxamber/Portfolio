@@ -71,6 +71,38 @@ ul li a{
     color: white;
 }
 
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4em;
+    font-size: 2.5rem;
+}
+
+#tic-tac-toe {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+
+#quiz-game {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+
+#to-do-list {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+
+#magic-8-ball {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+
 #video1 {
     position: fixed;
     top: 0;
