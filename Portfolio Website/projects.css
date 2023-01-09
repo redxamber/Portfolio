@@ -66,6 +66,11 @@ ul li a{
     justify-content: center;
 }
 
+.fa {
+    text-decoration: none;
+    color: white;
+}
+
 #video1 {
     position: fixed;
     top: 0;

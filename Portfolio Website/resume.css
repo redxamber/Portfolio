@@ -66,6 +66,11 @@ ul li a{
     justify-content: center;
 }
 
+.fa {
+    text-decoration: none;
+    color: white;
+}
+
 #video1 {
     position: fixed;
     top: 0;
@@ -75,6 +80,17 @@ ul li a{
     object-fit: cover;
     opacity: 0.9;
     z-index: -1;
+}
+
+#resumeDoc {
+    color: white;
+    font-size: 3rem;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
 }
 
 @media (min-width: 680px) {
