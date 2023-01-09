@@ -83,24 +83,36 @@ ul li a{
     text-decoration: none;
     color: #fff;
     font-weight: 900;
+    background-color: #491201;
+    padding: 1em;
+    border-radius: 40px;
 }
 
 #quiz-game {
     text-decoration: none;
     color: #fff;
     font-weight: 900;
+    background-color: #491201;
+    padding: 1em;
+    border-radius: 40px;
 }
 
 #to-do-list {
     text-decoration: none;
     color: #fff;
     font-weight: 900;
+    background-color: #491201;
+    padding: 1em;
+    border-radius: 40px;
 }
 
 #magic-8-ball {
     text-decoration: none;
     color: #fff;
     font-weight: 900;
+    background-color: #491201;
+    padding: 1em;
+    border-radius: 40px;
 }
 
 #video1 {
