@@ -91,6 +91,7 @@ ul li a{
     align-items: center;
     text-align: center;
     text-decoration: none;
+    font-weight: 900;
 }
 
 @media (min-width: 680px) {
