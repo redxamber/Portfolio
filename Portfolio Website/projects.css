@@ -86,6 +86,8 @@ ul li a{
     background-color: #491201;
     padding: 1em;
     border-radius: 40px;
+    border-top: white solid 5px;
+    border-left: white solid 5px;
 }
 
 #quiz-game {
@@ -95,6 +97,8 @@ ul li a{
     background-color: #491201;
     padding: 1em;
     border-radius: 40px;
+    border-top: white solid 5px;
+    border-left: white solid 5px;
 }
 
 #to-do-list {
@@ -104,6 +108,8 @@ ul li a{
     background-color: #491201;
     padding: 1em;
     border-radius: 40px;
+    border-top: white solid 5px;
+    border-left: white solid 5px;
 }
 
 #magic-8-ball {
@@ -113,6 +119,8 @@ ul li a{
     background-color: #491201;
     padding: 1em;
     border-radius: 40px;
+    border-top: white solid 5px;
+    border-left: white solid 5px;
 }
 
 #video1 {
