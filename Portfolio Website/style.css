@@ -169,6 +169,7 @@
     border-bottom: #a51e71 solid 5px;
     border-top:#ffbed7 5px solid;
     border-left: #ffbed7 5px solid;
+    cursor: pointer;
 }
 #skills {
     background-color: #f84cc4;
@@ -184,6 +185,7 @@
     border-bottom: #a51e71 solid 5px;
     border-top:#ffbed7 5px solid;
     border-left: #ffbed7 5px solid;
+    cursor: pointer;
 }
 #work{
     background-color: #f84cc4;
@@ -199,6 +201,7 @@
     border-bottom: #a51e71 solid 5px;
     border-top:#ffbed7 5px solid;
     border-left: #ffbed7 5px solid;
+    cursor: pointer;
 }
 
 button :hover {
