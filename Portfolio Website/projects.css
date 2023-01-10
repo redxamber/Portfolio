@@ -32,10 +32,11 @@ ul li a{
 .navbar a:hover {
     padding: 0.6em;
     border-radius: 10px;
+    border: rgb(252, 199, 219);
     box-shadow: 
-    0 0 20px 10px rgb(253, 242, 144),
-    0 0 25px 20px rgb(252, 180, 46),
-    0 0 46px 30px rgb(255, 136, 0);
+    0 0 10px 5px rgb(252, 209, 226),
+    0 0 12.5px 10px rgb(252, 46, 125),
+    0 0 23px 15px rgb(255, 118, 175);
 }
 
 .title {
@@ -83,21 +84,21 @@ ul li a{
     text-decoration: none;
     color: #fff;
     font-weight: 900;
-    background-color: #491201;
+    background-color: #b83e4e;
     padding: 1em;
     border-radius: 40px;
     border-top: white solid 5px;
     border-left: white solid 5px;
 }
 #tic-tac-toe:hover {
-    background-color: #772106;
+    background-color: #f76377;
 }
 
 #quiz-game {
     text-decoration: none;
     color: #fff;
     font-weight: 900;
-    background-color: #491201;
+    background-color: #b83e4e;
     padding: 1em;
     border-radius: 40px;
     border-top: white solid 5px;
@@ -105,35 +106,36 @@ ul li a{
 }
 
 #quiz-game:hover {
-    background-color: #772106;
+    background-color: #f76377;
 }
 
 #to-do-list {
     text-decoration: none;
     color: #fff;
     font-weight: 900;
-    background-color: #491201;
+    background-color: #b83e4e;
     padding: 1em;
     border-radius: 40px;
     border-top: white solid 5px;
     border-left: white solid 5px;
 }
 #to-do-list:hover {
-    background-color: #772106;
+    background-color: #f76377;
 }
 
 #magic-8-ball {
     text-decoration: none;
     color: #fff;
     font-weight: 900;
-    background-color: #491201;
+    background-color: #b83e4e;
     padding: 1em;
     border-radius: 40px;
     border-top: white solid 5px;
     border-left: white solid 5px;
 }
+
 #magic-8-ball:hover {
-    background-color: #772106;
+    background-color: #f76377;
 }
 
 #video1 {

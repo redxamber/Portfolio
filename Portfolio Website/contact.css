@@ -32,10 +32,11 @@ ul li a{
 .navbar a:hover {
     padding: 0.6em;
     border-radius: 10px;
+    border: rgb(252, 199, 219);
     box-shadow: 
-    0 0 20px 10px rgb(253, 242, 144),
-    0 0 25px 20px rgb(252, 180, 46),
-    0 0 46px 30px rgb(255, 136, 0);
+    0 0 10px 5px rgb(252, 209, 226),
+    0 0 12.5px 10px rgb(252, 46, 125),
+    0 0 23px 15px rgb(255, 118, 175);
 }
 
 .title {
@@ -56,7 +57,7 @@ ul li a{
     justify-content: space-between;
     align-items: center;
     color: white;
-    background-color: #460101;
+    background-color: #b83e4e;
     padding-top: 4em;
     padding-bottom: 4em;
     margin-top: 6em;

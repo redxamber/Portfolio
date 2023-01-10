@@ -36,11 +36,11 @@
 .navbar a:hover {
     padding: 0.6em;
     border-radius: 10px;
-    border: rgb(253, 233, 143);
+    border: rgb(252, 199, 219);
     box-shadow: 
-    0 0 10px 5px rgb(253, 242, 144),
-    0 0 12.5px 10px rgb(252, 180, 46),
-    0 0 23px 15px rgb(255, 136, 0);
+    0 0 10px 5px rgb(252, 209, 226),
+    0 0 12.5px 10px rgb(252, 46, 125),
+    0 0 23px 15px rgb(255, 118, 175);
 }
 
 .title {
@@ -51,7 +51,7 @@
     display: flex;
     align-items: center;
     gap: 1em;
-    background-color: #460101 ;
+    background-color: #b83e4e ;
     margin-top: 1.5em;
     margin: 1em;
     padding-top: 1.5em;
@@ -80,7 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #460101;
+    background-color: #b83e4e;
     padding-top: 2em;
     padding-bottom: 2em;
     margin-top: -3em;
@@ -107,7 +107,7 @@
 }
 
 .paragraphs {
-    background-color: #491201;
+    background-color: #b83e4e;
     margin-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
@@ -156,8 +156,8 @@
 }
 
 #about {
-    background-color: #f0ab18;
-    border: #ffcf4d;
+    background-color: #f84cc4;
+    border: #f84cc4;;
     color: #fff;
     padding: 40px;
     border-radius: 70px 0px 70px 0px;
@@ -165,14 +165,14 @@
     letter-spacing: 2px;
     width: 8em;
     height: 100%;
-    border-right:#cf7704 solid 5px;
-    border-bottom: #cf7704 solid 5px;
-    border-top:rgb(252, 236, 96) 5px solid;
-    border-left:rgb(252, 236, 96) 5px solid;
+    border-right:#a51e71 solid 5px;
+    border-bottom: #a51e71 solid 5px;
+    border-top:#ffbed7 5px solid;
+    border-left: #ffbed7 5px solid;
 }
 #skills {
-    background-color: #f36d00;
-    border: #ffa013;
+    background-color: #f84cc4;
+    border: #f84cc4;
     color: #fff;
     padding: 40px;
     border-radius: 70px 0px 70px 0px;
@@ -180,14 +180,14 @@
     letter-spacing: 2px;
     width: 8em;
     height: 100%;
-    border-right:#cf2d04 solid 5px;
-    border-bottom: #cf2d04 solid 5px;
-    border-top:rgb(255, 169, 56) 5px solid;
-    border-left:rgb(255, 169, 56) 5px solid;
+    border-right:#a51e71 solid 5px;
+    border-bottom: #a51e71 solid 5px;
+    border-top:#ffbed7 5px solid;
+    border-left: #ffbed7 5px solid;
 }
 #work{
-    background-color: #f84803;
-    border: #fd6e0e;
+    background-color: #f84cc4;
+    border: #f84cc4;
     width: 8em;
     height: 100%;
     color: #fff;
@@ -195,10 +195,10 @@
     border-radius: 70px 0px 70px 0px;
     font-weight: 700;
     letter-spacing: 2px;
-    border-top:rgb(255, 116, 52) 5px solid;
-    border-left:rgb(255, 116, 52)  5px solid;
-    border-bottom: #b60202 solid 5px;
-    border-right: #b60202 solid 5px;
+    border-right:#a51e71 solid 5px;
+    border-bottom: #a51e71 solid 5px;
+    border-top:#ffbed7 5px solid;
+    border-left: #ffbed7 5px solid;
 }
 
 button :hover {
