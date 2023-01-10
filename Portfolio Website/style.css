@@ -202,7 +202,7 @@
 }
 
 button :hover {
-    border-bottom: 2px solid rgb(252, 247, 230);
+    border-bottom: 2px solid rgb(252, 230, 234);
 }
 
 @media (min-width: 798px) {
