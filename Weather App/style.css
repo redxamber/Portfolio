@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    background-color: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+input {
+    background-color: #7676762b;
+    color: white;
+    border-radius: 25px;
+    padding: 1em;
+    border-color: #7676762b;
+    outline: none;
+    width: 70%;
+    font-size: 75%;
+}
+
+button {
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: #7676762b;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    padding: 0.3em;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #7676766b;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 1em;
+}
+
+.container {
+    width: 100%;
+    background-color: #000000d0;
+    color: white;
+    padding: 2em;
+    max-width: 420px;
+    height: 290px;
+    border-radius: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.temp {
+    font-size: 2.5rem;
+    margin: 0px;
+    margin-bottom: 8px;
+}
