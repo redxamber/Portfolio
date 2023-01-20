@@ -1,4 +1,4 @@
-let apiKey = 'fb5321f98f4b81575786668c0e3a06b6';
+let apiKey = '*API KEY*';
 
 function fetchWeather(city) {
   let xhr = new XMLHttpRequest()
