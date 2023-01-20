@@ -138,6 +138,21 @@ ul li a{
     background-color: #f76377;
 }
 
+#weather-app {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    background-color: #b83e4e;
+    padding: 1em;
+    border-radius: 40px;
+    border-top: white solid 5px;
+    border-left: white solid 5px;
+}
+
+#weather-app:hover {
+    background-color: #f76377;
+}
+
 #video1 {
     position: fixed;
     top: 0;
