@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Lora&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #f7fee7;
+}
+
+h3 {
+    font-family: 'Roboto Mono', 'Times New Roman', 'sans-serif';
+    font-size: 1.5rem;
+}
+
+.styling {
+    font-size: large;
+    font-family: 'Chivo Mono', 'Times New Roman', 'sans-serif';
+    cursor: pointer;
+}
+
+.container {
+    background-color: #bef264;
+    margin-left: 10em;
+    margin-right:10em;
+    padding-bottom: 2em;
+    border: #365314 5px;
+    border-style: dashed;
+}
+
+.top-content {
+    text-align: center;
+    padding-top: 3em;
+    font-family: 'Chivo Mono', 'Times New Roman', 'sans-serif';
+}
+
+.bottom-content {
+    text-align: center;
+}
+
+#add {
+    width: 2em;
+    height: 2em;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: #365314;
+    border:#365314;
+    border-radius: 5px;
+}
+
+#input {
+    height: 2em;
+    width: 15em;
+    border: #365314 solid 2px;
+}
+
+@media(max-width: 760px) {
+    .container {
+        margin: 0;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
